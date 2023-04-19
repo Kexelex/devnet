@@ -1,0 +1,13 @@
+Install nvm (https://github.com/nvm-sh/nvm)
+
+Run `nvm install 10`
+
+Install docker (https://docs.docker.com/get-docker/)
+
+In the terminal type these commands:
+nvm use 10
+npm install # THIS IS NEEDED ONLY ONCE
+
+Now, any time you need to open the project do this:
+docker-compose up -d
+npm run dev
